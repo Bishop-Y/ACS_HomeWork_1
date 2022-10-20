@@ -20,10 +20,10 @@ int main(int argc, char *argv[])
         writeResult(length, B);
         return 0;
     }
-    printf("Enter input length (0 < length <= 9):");
+    printf("Enter input length (0 < length <= 20):");
     scanf("%d", &length);
 
-    if (length < 1 || length > 9)
+    if (length < 1 || length > 20)
     {
         printf("Incorrect length = %d", length);
         return 1;
