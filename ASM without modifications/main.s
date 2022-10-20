@@ -4,7 +4,7 @@
 	.section	.rodata
 	.align 8
 .LC0:
-	.string	"Enter input length (0 < length <= 9):"
+	.string	"Enter input length (0 < length <= 20):"
 .LC1:
 	.string	"%d"
 .LC2:
@@ -170,7 +170,7 @@ main:
 	test	eax, eax
 	jle	.L10 # если данные некорректны
 	mov	eax, DWORD PTR -108[rbp]
-	cmp	eax, 9
+	cmp	eax, 20
 	jle	.L11 # если данные корректны
 .L10:
 	mov	eax, DWORD PTR -108[rbp]
