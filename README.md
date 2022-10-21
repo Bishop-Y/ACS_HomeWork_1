@@ -35,3 +35,11 @@
 > * [Модифицированная программа на ассемблере](https://github.com/Bishop-Y/ACS_HomeWork_1/tree/main/ASM%20without%20modifications) <br/>
 ## Тесты ввода с файла и вывод в файл: <br/>
 > * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/Tests.md) <br/>
+----
+# На 8 баллов:
+## Программа на C с генератором данных: <br/>
+> * [Программа на C](https://github.com/Bishop-Y/ACS_HomeWork_1/tree/main/Program%20on%20C) <br/>
+## Программа на ассемблере с генератором данных: <br/>
+> * [Модифицированная программа на ассемблере](https://github.com/Bishop-Y/ACS_HomeWork_1/tree/main/ASM%20without%20modifications) <br/>
+## Тесты генерации массивов: <br/>
+> * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/Tests.md) <br/>
