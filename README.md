@@ -12,6 +12,9 @@
 
 ## Тесты: <br/>
 > * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/Tests.md) <br/>
+
+## Отчёт: <br/>
+> * [Отчёт}(https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/README.md) <br/>
 ---- 
 # На 5 баллов:
 ##  Программа на C с передачей данных через параметры + использованы локальные переменные: <br/>
@@ -20,21 +23,34 @@
 ## Модифицированная ассемблерная программа с комментариями + комментарии, показывающие связь между параметрами языка C и стеком: <br/>
 > * [Программа на ассемблере с модификациями, с комментариями](https://github.com/Bishop-Y/ACS_HomeWork_1/tree/main/ASM%20with%20modifications) <br/>
 > * [Информация о переменных на стеке в разных модифицированных файлах](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/stack_mod_info.md)
+
+## Отчёт: <br/>
+> * [Отчёт}(https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/README.md) <br/>
 ---- 
 # На 6 баллов:
 ## Модифицированная ассемблерная программа с проведенным рефакторингом + с поясняющими комментариями: <br/>
 > * [Программа на ассемблере с модификациями, с комментариями](https://github.com/Bishop-Y/ACS_HomeWork_1/tree/main/ASM%20with%20modifications) <br/>
 > * [Информация о переменных на стеке в разных модифицированных файлах](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/stack_mod_info.md)
+
 ## Тесты: <br/>
 > * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/Tests.md) <br/>
+
+## Отчёт: <br/>
+> * [Отчёт}(https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/README.md) <br/>
 ----
 # На 7 баллов:
+
 ## Модифицированная программа на ассемблере, в виде 6 единиц компиляции: <br/>
 > * [Модифицированная программа на ассемблере](https://github.com/Bishop-Y/ACS_HomeWork_1/tree/main/ASM%20without%20modifications) <br/>
+
 ## Модифицированная программа на ассемблере, с поддержкой ввода с файла и вывода в файл: <br/>
 > * [Модифицированная программа на ассемблере](https://github.com/Bishop-Y/ACS_HomeWork_1/tree/main/ASM%20without%20modifications) <br/>
+
 ## Тесты ввода с файла и вывод в файл: <br/>
 > * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/Tests.md) <br/>
+
+## Отчёт: <br/>
+> * [Отчёт}(https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/README.md) <br/>
 ----
 # На 8 баллов:
 ## Программа на C с генератором данных: <br/>
