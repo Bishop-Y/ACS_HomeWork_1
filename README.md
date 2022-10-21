@@ -65,3 +65,8 @@
 > * [Модифицированная программа на ассемблере](https://github.com/Bishop-Y/ACS_HomeWork_1/tree/main/ASM%20without%20modifications) <br/>
 ## Тесты генерации массивов: <br/>
 > * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/Tests.md) <br/>
+## Замер времени: <br/>
+> * [Программа на C с замером времени](https://github.com/Bishop-Y/ACS_HomeWork_1/tree/main/Program%20on%20C%20with%20clock) <br/>
+> * [Программа на ассемблере с замером времени](https://github.com/Bishop-Y/ACS_HomeWork_1/tree/main/ASM%20with%20clock) <br/>
+## Тесты с отчётом: <br/>:
+> * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/Tests.md) <br/>
