@@ -21,12 +21,19 @@
 2. Тест неккоректной длины: <br/>
 > * С модификациями: <br/> <br/>
 > ![image](https://user-images.githubusercontent.com/66753948/197080864-4638e1e6-a6c4-4e57-a6d0-e9e7a5667147.png) <br/> <br/> <br/>
-## Поведение программы не поменялось! Всё так же работает корректно <br/> <br/>
+> ## Поведение программы не поменялось! Всё так же работает корректно <br/> <br/>
 
 ## На 7 баллов: <br/>
 > * Файл с входными параметрами: <br/> <br/>
 > ![image](https://user-images.githubusercontent.com/66753948/197082392-062bd68b-55c5-4247-a666-8782caeb5c0f.png) <br/> <br/>
 > * Командная строка (в ней указывается количество элементов, которое нужно считать с начала файла input.txt): <br/> <br/>
-![image](https://user-images.githubusercontent.com/66753948/197082590-9050c1b4-7311-4a82-8e01-9ad93463dd3b.png) <br/>
+> ![image](https://user-images.githubusercontent.com/66753948/197082590-9050c1b4-7311-4a82-8e01-9ad93463dd3b.png) <br/>
 > * Файл с выходными параметрами (отработано корректно): <br/> <br/>
-> ![image](https://user-images.githubusercontent.com/66753948/197082726-affb2baa-8a55-45cc-bc7c-d8071dee759d.png)
+> ![image](https://user-images.githubusercontent.com/66753948/197082726-affb2baa-8a55-45cc-bc7c-d8071dee759d.png) <br/> <br/> <br/>
+
+## На 8 баллов: <br/>
+> * Первый тест с генерацией данных: <br/> <br/>
+> ![image](https://user-images.githubusercontent.com/66753948/197083729-cd7a6b03-dc23-4f45-bc56-602acc5dd445.png) <br/>
+> * Второй тест с генерацией данных: <br/> <br/>
+> ![image](https://user-images.githubusercontent.com/66753948/197083842-490f3b3c-2526-4c02-b14e-772518b26aff.png) <br/>
+> ## Программа отработала корректно!
