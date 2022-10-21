@@ -15,10 +15,14 @@
 
 ## На 6 баллов:
 1. Тест с ручным вводом: <br/>
+> * Без модификаций: <br/> <br/>
+> ![image](https://user-images.githubusercontent.com/66753948/197085493-1b733b0f-98f6-44cf-8c54-533b4e0bfecf.png) <br/> <br/>
 > * С модификациями: <br/> <br/>
 > ![image](https://user-images.githubusercontent.com/66753948/197080475-bffd262b-f3af-4b5f-97dd-47c66c9fb04c.png)
 
-2. Тест неккоректной длины: <br/>
+2. Тест некорректной длины: <br/>
+> * Без модификаций: <br/> <br/>
+> ![image](https://user-images.githubusercontent.com/66753948/197085596-5e26a645-c9c0-442e-834d-963fbf06ad23.png) <br/> <br/>
 > * С модификациями: <br/> <br/>
 > ![image](https://user-images.githubusercontent.com/66753948/197080864-4638e1e6-a6c4-4e57-a6d0-e9e7a5667147.png) <br/> <br/> <br/>
 ## Поведение программы не поменялось! Всё так же работает корректно <br/> <br/>
