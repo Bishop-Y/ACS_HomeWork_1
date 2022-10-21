@@ -27,8 +27,8 @@ main:
 	push	r12
 	push	rbx
 	sub	rsp, 192
-	mov	DWORD PTR -132[rbp], edi # запись argc (-132 = argc)
-	mov	QWORD PTR -144[rbp], rsi # запись argv (-144 = argv)
+	mov	DWORD PTR -132[rbp], edi # запись argc (-132 = argc) (запись из первого параметра функции main)
+	mov	QWORD PTR -144[rbp], rsi # запись argv (-144 = argv) (запись из второго параметра функции main)
 	# mov rax, QWORD PTR fs:40
 	# mov QWORD PTR -40[rbp], rax
 	xor	eax, eax
@@ -100,7 +100,7 @@ main:
 	mov	QWORD PTR -56[rbp], rdx
 	movsx	rdx, eax
 	mov	r10, rdx
-	mov	r11d, 0
+	# mov r11d, 0
 	movsx	rdx, eax
 	mov	r8, rdx
 	mov	r9d, 0
@@ -168,6 +168,7 @@ main:
 	mov	eax, 0
 	mov	rsp, rbx
 	# jmp .L9
+	jmp .L23 # переход в конец программы
 .L2:
 	lea	rdi, .LC0[rip]
 	mov	eax, 0
@@ -178,7 +179,6 @@ main:
 	mov	eax, 0
 	call	__isoc99_scanf@PLT
 	mov	eax, DWORD PTR -116[rbp] # eax = length
-	mov r15d, DWORD PTR -116[rbp] # r15d = length 
 	test	eax, eax
 	jle	.L10
 	mov	eax, DWORD PTR -116[rbp]
@@ -193,6 +193,7 @@ main:
 	call	printf@PLT
 	mov	eax, 1
 	# jmp .L9
+	jmp .L23 # переход в конец программы
 .L11:
 	mov	eax, DWORD PTR -116[rbp]
 	# movsx	rdx, eax
@@ -300,8 +301,9 @@ main:
 	lea	rdi, .LC1[rip]
 	mov	eax, 0
 	call	__isoc99_scanf@PLT
-	mov	eax, DWORD PTR -112[rbp] # -112 = input type
-	cmp	eax, 1
+	# mov eax, DWORD PTR -112[rbp] # -112 = input type
+	mov r11d, DWORD PTR -112[rbp] # r11d = input type
+	cmp	r11d, 1
 	jne	.L18
 	# mov eax, DWORD PTR -116[rbp]
 	# mov rdx, QWORD PTR -104[rbp]
@@ -353,7 +355,7 @@ main:
 	# mov rbx, QWORD PTR -40[rbp]
 	# xor rbx, QWORD PTR fs:40
 	# je .L23
-	# call	__stack_chk_fail@PLT
+	# call __stack_chk_fail@PLT
 .L23:
 	lea	rsp, -32[rbp]
 	pop	rbx
