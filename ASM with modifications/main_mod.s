@@ -29,8 +29,8 @@ main:
 	sub	rsp, 192
 	mov	DWORD PTR -132[rbp], edi # запись argc (-132 = argc)
 	mov	QWORD PTR -144[rbp], rsi # запись argv (-144 = argv)
-	mov	rax, QWORD PTR fs:40
-	mov	QWORD PTR -40[rbp], rax
+	# mov rax, QWORD PTR fs:40
+	# mov QWORD PTR -40[rbp], rax
 	xor	eax, eax
 	mov	rax, rsp
 	# mov r12, rax
@@ -350,8 +350,8 @@ main:
 	mov	eax, 0
 .L9:
 	# mov rsp, r12
-	mov	rbx, QWORD PTR -40[rbp]
-	xor	rbx, QWORD PTR fs:40
+	# mov rbx, QWORD PTR -40[rbp]
+	# xor rbx, QWORD PTR fs:40
 	je	.L23
 	call	__stack_chk_fail@PLT
 .L23:
