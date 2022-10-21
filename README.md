@@ -25,6 +25,12 @@
 > * [Информация о переменных на стеке в разных модифицированных файлах](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/stack_mod_info.md)
 
 ## Отчёт: <br/>
+> * Вызовы уже существующих функций task(A[], length, B[]) и print_arr(B[], length) были прокомментированны, переходы к регистрам rdx, esi, rdi были отмечены. Была прокоментированна связь между параметрами языка Си и регистрами по правилам:
+> * 1) eax/rax - для запоминания/копирования данных
+> * 2) rdi/edi - первый аргумент в функции
+> * 3) rsi/esi - второй аргумент в функции
+> * 4) rdx/edx - третий аргумент в функции
+> * 5) rcx - счётчик
 > * [Отчёт](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/README.md) <br/>
 ---- 
 # На 6 баллов:
