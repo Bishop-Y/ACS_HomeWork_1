@@ -167,7 +167,7 @@ main:
 	call	writeResult@PLT
 	mov	eax, 0
 	mov	rsp, rbx
-	jmp	.L9
+	# jmp .L9
 .L2:
 	lea	rdi, .LC0[rip]
 	mov	eax, 0
@@ -192,7 +192,7 @@ main:
 	mov	eax, 0
 	call	printf@PLT
 	mov	eax, 1
-	jmp	.L9
+	# jmp .L9
 .L11:
 	mov	eax, DWORD PTR -116[rbp]
 	# movsx	rdx, eax
@@ -348,12 +348,12 @@ main:
 	cmp	r13d, eax # DWORD PTR -108[rbp] => r13d
 	jl	.L21
 	mov	eax, 0
-.L9:
+# .L9:
 	# mov rsp, r12
 	# mov rbx, QWORD PTR -40[rbp]
 	# xor rbx, QWORD PTR fs:40
-	je	.L23
-	call	__stack_chk_fail@PLT
+	# je .L23
+	# call	__stack_chk_fail@PLT
 .L23:
 	lea	rsp, -32[rbp]
 	pop	rbx
