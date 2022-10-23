@@ -1,5 +1,5 @@
 # Для модификации была применена команда 
->     gcc -O0 -Wall -masm=intel -S -fno-asynchronous-unwind-tables -fcf-protection=none name.s -o name.o
+>     gcc -O0 -Wall -masm=intel -S -fno-asynchronous-unwind-tables -fcf-protection=none name.c -o name.s
 После чего все файлы были отредактированы вручную:
 # main_mod.s
 ###    Бесполезные переприсваивания:
